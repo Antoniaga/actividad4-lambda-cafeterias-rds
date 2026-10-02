@@ -1,0 +1,26 @@
+# Credenciales y secretos
+.env
+*.pem
+*.ppk
+
+# Configuración local
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Empaquetado temporal de Lambda
+lambda_package/
+verificar_lambda/
+
+# Material auxiliar/local
+Actividad_2/
+Guías de actividades/
+*.rar
+
+# Pruebas locales
+prueba_rds.py
+prueba_seguridad.py
+prueba_foursquare.py
